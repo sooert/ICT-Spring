@@ -1,0 +1,46 @@
+/
+├─.gradle
+│  ├─7.5.1
+│  │  ├─checksums
+│  │  ├─dependencies-accessors
+│  │  ├─executionHistory
+│  │  ├─fileChanges
+│  │  ├─fileHashes
+│  │  └─vcsMetadata
+│  ├─buildOutputCleanup
+│  └─vcs-1
+├─.settings
+├─bin
+│  ├─main
+│  │  ├─com
+│  │  │  └─my
+│  │  │      └─tsbw
+│  │  └─templates
+│  └─test
+│      └─com
+│          └─my
+│              └─tsbw
+├─gradle
+│  └─wrapper
+└─build.gradle : 프로젝트를 위한 플러그인, 라이브러리 기술, 빌드도구 설정파일
+└─src
+    ├─main
+    │  ├─java  : 자바파일 위치하는곳, 컨트롤러, 폼, DTO(디비), 서비스
+    │  │  └─com
+    │  │      └─my
+    │  │          └─tsbw
+    │  │          	  	└─TsbwApplication.java : 프로젝트명+Application. 엔트리포인트, main함수가 있다    
+    │  └─resources 
+    │      ├─static    : 정적위치, 라우팅을 하지않아도 URL로 인식하는 공간, css, js, 이미지(jpg,..)
+    │      └─templates : html위치 (템플릿 엔진이 html 파일을 찾는곳)
+    │      └─application.properties : 프로젝트 환경 설정, 데이터베이스 접속정보등등 
+    └─test
+        └─java
+            └─com
+                └─my
+                    └─tsbw
+                    	  └─TsbwApplicationTests.java : 프로젝트명+Application+Tests, 단위테스트공. JUnit 활용  
+                    	  
+                    	  
+                    	  
+                    	  

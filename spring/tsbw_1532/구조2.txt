@@ -1,0 +1,40 @@
+Windows10 볼륨에 대한 폴더 경로의 목록입니다.
+볼륨 일련 번호는 2685-365B입니다.
+C:.
+├─.gradle
+│  ├─7.5.1
+│  │  ├─checksums
+│  │  ├─dependencies-accessors
+│  │  ├─executionHistory
+│  │  ├─fileChanges
+│  │  ├─fileHashes
+│  │  └─vcsMetadata
+│  ├─buildOutputCleanup
+│  └─vcs-1
+├─.settings
+├─bin
+│  ├─main
+│  │  ├─com
+│  │  │  └─my
+│  │  │      └─tsbw
+│  │  └─templates
+│  └─test
+│      └─com
+│          └─my
+│              └─tsbw
+├─gradle
+│  └─wrapper
+└─src
+    ├─main
+    │  ├─java
+    │  │  └─com
+    │  │      └─my
+    │  │          └─tsbw
+    │  └─resources
+    │      ├─static
+    │      └─templates
+    └─test
+        └─java
+            └─com
+                └─my
+                    └─tsbw
